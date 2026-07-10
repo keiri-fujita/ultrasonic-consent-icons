@@ -5,30 +5,60 @@
 
   <title>超音波洗浄同意書 神戸店</title>
 
-  <link rel="apple-touch-icon" href="./UC_kobe.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./UC_kobe.png">
   <link rel="icon" href="./UC_kobe.png">
 
-  <meta
-    http-equiv="refresh"
-    content="2;url=https://script.google.com/a/macros/yoshiki-trading.com/s/AKfycbwcL4hh4qzq0Cueye5exGQlWnySHwY_10EiiHOlfz8I_kIdMIdLr71EZYZyP4M0wXtY/exec?store=kobe"
-  >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="洗浄同意書 神戸">
+  <meta name="mobile-web-app-capable" content="yes">
 
   <style>
     body {
       font-family: sans-serif;
       text-align: center;
-      padding-top: 60px;
+      padding: 60px 20px;
+      line-height: 1.8;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 24px;
+      border: 1px solid #333;
+      border-radius: 8px;
+      color: #000;
+      text-decoration: none;
+      font-size: 18px;
     }
   </style>
+
+  <script>
+    const appUrl =
+      "https://script.google.com/a/macros/yoshiki-trading.com/s/AKfycbwcL4hh4qzq0Cueye5exGQlWnySHwY_10EiiHOlfz8I_kIdMIdLr71EZYZyP4M0wXtY/exec?store=kobe";
+
+    window.addEventListener("load", function() {
+      const openedFromHomeScreen =
+        window.navigator.standalone === true ||
+        window.matchMedia("(display-mode: standalone)").matches;
+
+      if (openedFromHomeScreen) {
+        window.location.replace(appUrl);
+      }
+    });
+  </script>
 </head>
 
 <body>
-  <p>神戸店の洗浄同意書を開いています…</p>
+  <h1>超音波洗浄同意書</h1>
+  <p>神戸店</p>
 
   <p>
-    <a href="https://script.google.com/a/macros/yoshiki-trading.com/s/AKfycbwcL4hh4qzq0Cueye5exGQlWnySHwY_10EiiHOlfz8I_kIdMIdLr71EZYZyP4M0wXtY/exec?store=kobe">
-      自動で開かない場合はこちら
-    </a>
+    この画面をSafariの共有メニューから<br>
+    「ホーム画面に追加」してください。
   </p>
+
+  <a href="https://script.google.com/a/macros/yoshiki-trading.com/s/AKfycbwcL4hh4qzq0Cueye5exGQlWnySHwY_10EiiHOlfz8I_kIdMIdLr71EZYZyP4M0wXtY/exec?store=kobe">
+    洗浄同意書を開く
+  </a>
 </body>
 </html>
